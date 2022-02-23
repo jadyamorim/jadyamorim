@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>Rotorlink</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/import.css" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="images/favicon_io/site.webmanifest">
+</head>
+<body>
+    <!-- 
+        author: jady amorim 
+        date:   03/22/2021
+        notes:  this page belongs to the final project COMP 1850 instructed by jeff parker at BCIT. 
+                The purpose of the website is to re-stylize Rotorlink's current website applying technics learned in this course. 
+                The current website of the company can be found at https://www.rotorlink.com/
+    -->
+    <header>
+        <div id="sticky-header">
+            <div id="top-bar">
+                <a href="index.html"><img src="images/rotorlink_logo_header.png" alt="Rotorlink"></a>
+
+                <div id="button-menu" class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            
+            <p></p>
+
+            <div id="nav-container">
+                <nav>
+                    <ul id="nav-ul">
+                        <li class="nav-li" ><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-li" ><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-li" ><a class="nav-link" href="about_us.html">About us</a></li>
+                        <li class="nav-li" ><a class="nav-link" href="contact_us.html">Contact us</a></li>
+                        <li class="nav-li" ><a class="nav-link" href="our_team.html">Our Team</a></li>
+                        <li class="nav-li" ><a class="nav-link" href="lorem_ipsum.html">Ipsum</a></li>
+                        <li class="nav-li" ><a class="nav-link" href="get_a_quote.html">Get a Quote</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </div>
+
+        <div class="image-caption-header-container">
+            <picture>
+                <source media="(max-width:660px)" srcset="images/header/home-header-small-screen.jpg">
+                <source media="(max-width:1200px)" srcset="images/header/home-header-medium-screen.jpg">
+                <source media="(min-width:1201px)" srcset="images/header/home-header-large-screen.jpg">
+                    
+                <img src="mages/header/home-header-large-screen.jpg" alt="Header Image">
+            </picture>
+            <div class="caption-overlay-header">
+                <blockquote>The quickest way to get back in the air</blockquote>
+            </div>
+        </div>
+    </header>
+
+    <div id="wrapper">
+        <main>
+            <section id="main-page-paragraph">
+                <h1 class="heading">RotorLink Technical Services</h1>		
+                <div class="wrapper-no-background">
+                    <h2 class="subheading">Trusted Helicopter Parts Supplier</h2>	
+                    <p class="text">Over 20 years offering innovative solutions for all aspects of the rotor wing industry. 
+                        We are committed to excellence and strive to consistently exceed your expectations. With clients all 
+                        over Canada, US and Worldwide. </p>
+
+                    <h2 class="subheading">Helicopter Parts Sales | Airbus Eurocopter and Bell Parts Supplier | Aircraft Asset Management | Aircraft Consulting Services</h2>
+                    <p class="text">
+                        Our years of experience in the rotor industry have put us in a unique position to act as your agent on various projects, from 
+                        inception through delivery. Whether your aircraft needs refurbishing or has been involved in an incident, we have the technical 
+                        expertise to identify the project’s requirements, review service estimates and analyze turn times.
+                    </p>
+                </div>
+            </section>
+
+            <section class="grey-section" id="more-home">
+                <div class="heading-grey-section">
+                    <h2>More:</h2>
+                </div>
+
+                <div class="grey-section-content" >
+                    <div class="text-overlay-container" id="quotes">
+                        <a href="#">
+                            <img class="tr-basic" src="images/quote-resized.jpg" alt="Quotes Image">
+                            <div class="caption">
+                                <p>Quote</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="text-overlay-container" id="parts">
+                        <a href="#">
+                            <img class="tr-basic" src="images/parts-resized.jpg" alt="Parts Image">
+                            <div class="caption">
+                                <p>Parts</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="text-overlay-container" id="News">
+                        <a href="#">
+                            <img class="tr-basic" src="images/news-resized.jpg" alt=" News">
+                            <div class="caption">
+                                <p>News</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <footer>
+        <div id=footer-content>
+            <div>
+                <a href="index.html"><img src="images/rotorlink-logo-white.png" alt="Rotorlink Logo White"></a>
+                <p>The masterlink in the supply chain</p>
+                <p></p>
+            </div>
+            
+            <div class="get-social">
+                <h2>Get Social: </h2>
+                <a class="footer-link" href="https://www.facebook.com/RotorLink/" target="_blank"><img src="images/facebook-icon.png" alt="Facebook Icon" ></a>
+                <a class="footer-link" href="https://www.instagram.com/rotorlink/" target="_blank"><img src="images/instagram-icon.png" alt="Instagram Icon"></a>
+                <a class="footer-link" href="https://www.linkedin.com/company/rotorlink-technical-services-inc/" target="_blank"><img src="images/linkedin-icon.png" alt="Linkedin Icon"></a>
+            </div>
+    
+            <div>
+                <h2>Contact:</h2>
+                <p><a class="footer-link" href="tel:1-604-628-8188" target="_blank">Ph: +1 604-628-8188</a></p>
+                <p><a class="footer-link" href="jadyaamorim@gmail.com" target="_blank">Fax:  +1 604-628-8208</a></p>
+            </div>
+        </div>
+            <small><a class="footer-link" href="sitemap.html"><strong>View Sitemap</strong></a></small>
+            <br>
+            <small>Copyright &copy; 2021 | RotorLink Technical Services Inc. | COMP 1850 | BCIT | Developed by <a class="footer-link" href="https://www.linkedin.com/in/jady-amorim-34b7451a1"><strong>Jady Amorim</strong></a></small>
+    </footer>
+
+<script src="scripts/menu.js"></script>
+</body>
+</html>
